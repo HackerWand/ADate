@@ -1,0 +1,25 @@
+{
+  "name": "xdate",
+  "version": "1.0.0",
+  "description": "JavaScript的Date对象工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackerWand/XDate.git"
+  },
+  "keywords": [
+    "Date",
+    "JavaScript",
+    "Date",
+    "Date工具"
+  ],
+  "author": "hackerwand",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/HackerWand/XDate/issues"
+  },
+  "homepage": "https://github.com/HackerWand/XDate#readme"
+}
