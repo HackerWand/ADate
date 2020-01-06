@@ -2,9 +2,10 @@
   "name": "adate",
   "version": "1.0.0",
   "description": "JavaScript的Date对象工具",
-  "main": "index.js",
+  "main": "dist/adate.module.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config build/webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,21 @@
   ],
   "author": "hackerwand",
   "license": "MIT License",
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/runtime": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "babel-preset-latest": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2"
+  },
   "bugs": {
     "url": "https://github.com/HackerWand/ADate/issues"
   },

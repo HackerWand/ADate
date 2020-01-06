@@ -1,6 +1,25 @@
 # ADate
 JavaScript的Date对象工具
 
+## 安装和使用
+ES6使用方法
+```
+npm install adate
+```
+```
+import ADate from 'adate'
+let date = new ADate()
+```
+
+浏览器使用方法
+```
+<script src="./dist/adate.module.js"></script>
+
+<script>
+let date = new ADate()
+</script>
+```
+
 ## 日期格式化 (format)
 ```
 let date = new ADate()
