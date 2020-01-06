@@ -1,6 +1,6 @@
 {
   "name": "adate",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "JavaScript的Date对象工具",
   "main": "dist/adate.module.js",
   "scripts": {
@@ -15,7 +15,8 @@
     "Date",
     "JavaScript",
     "Date",
-    "Date工具"
+    "Date工具",
+    "ADate"
   ],
   "author": "hackerwand",
   "license": "MIT License",
