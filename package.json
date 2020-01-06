@@ -1,5 +1,5 @@
 {
-  "name": "xdate",
+  "name": "adate",
   "version": "1.0.0",
   "description": "JavaScript的Date对象工具",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HackerWand/XDate.git"
+    "url": "git+https://github.com/HackerWand/ADate.git"
   },
   "keywords": [
     "Date",
@@ -19,7 +19,7 @@
   "author": "hackerwand",
   "license": "MIT License",
   "bugs": {
-    "url": "https://github.com/HackerWand/XDate/issues"
+    "url": "https://github.com/HackerWand/ADate/issues"
   },
-  "homepage": "https://github.com/HackerWand/XDate#readme"
+  "homepage": "https://github.com/HackerWand/ADate#readme"
 }

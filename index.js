@@ -4,7 +4,7 @@
  * Link: https://www.slippersclown.com
  * Date: Fri Jan 03 2020
  */
-class XDate extends Date {
+class ADate extends Date {
   get frame () {
     let month = this.getMonth() + 1
     let date = this.getDate()
@@ -45,7 +45,7 @@ class XDate extends Date {
   }
 
   copy () {
-    return new XDate(this.getTime())
+    return new ADate(this.getTime())
   }
 
   compare (date, tag) {
@@ -55,8 +55,8 @@ class XDate extends Date {
 
     let index = 'ymdhis'.indexOf(tag.toLowerCase())
 
-    if (!(date instanceof XDate)) {
-      date = new XDate(date.getTime())
+    if (!(date instanceof ADate)) {
+      date = new ADate(date.getTime())
     }
 
     if (index !== 0) {
@@ -87,7 +87,7 @@ class XDate extends Date {
       return i === index ? (parseInt(v) + quantity) : parseInt(v)
     })
     d[1] -= 1
-    return new XDate(...d)
+    return new ADate(...d)
   }
 
   format (str = 'YMDHIS') {
